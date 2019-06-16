@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+  <body bgcolor="#89CDEB">
+  </body>
+</html>
+<html>
+    <head>
+      <title>Stray Paws</title>
+    </head>
+    <body>
+      <h1 style="color:#2D1BA4;"><p><font size="6">I Lost My Dog</</font></p></h1>
+  </body>
+  <div class="topnav">
+  <a class="active" href="file:///C:/Users/student/Desktop/app.html
+">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+ </div>
+  <script type="text/javascript">
+function showfield(name){
+  if(name=='Other')document.getElementById('div1').innerHTML='Other: <input type="text" name="other" />';
+  else document.getElementById('div1').innerHTML='';
+}
+</script>
+
+<select name="travel_arriveVia" id="travel_arriveVia" onchange="showfield(this.options[this.selectedIndex].value)">
+<option selected="selected">Select color...</option>
+<option value="White">White</option>
+<option value="Black">Black</option>
+<option value="Brown">Brown</option>
+<option value="Other">Other</option>
+</select>
+<div id="div1"></div>
+ 
+<select name="travel_arriveVia" id="travel_arriveVia" onchange="showfield(this.options[this.selectedIndex].value)">
+<option selected="selected">Select City ...</option>
+<option value="Los Angeles">Los Angeles</option>
+<option value="San Fransisco">San Fransisco</option>
+  <input type="text" placeholder="Name (optional)..">
+  <input type="text" placeholder="Size (optional)..">
+<!-- Trigger the Modal -->
+<img id="myImg" src="https://www.lostdogsillinois.org/wp-content/uploads/2013/04/Jump-start.jpg" align="right"  alt="Snow" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+  <form>
+         <input type="button" onclick="window.location.href = 'file:///Users/apple/Desktop/straypawsWHITEDOGS.html'" value="Submit"/>
+      </form>
