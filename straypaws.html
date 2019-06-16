@@ -1,8 +1,61 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: transparent;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'transparent')">Home</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+<div id="Home" class="tabcontent">
 <html>
 	<h1>
 		STRAYPAWS
 	</h1>
+	<!DOCTYPE HTML>
+<html>
+
 	<body>
 		<div class="imgbox" id="corgibox">
 			<img src="https://www.bravotv.com/sites/bravo/files/styles/blog-post-embedded--mobile/public/field_blog_image/2018/04/unleashed-corgi-people-promo.jpg?itok=islF5Cxy">
@@ -22,3 +75,82 @@
         <form>
          <input type="button" onclick="window.location.href = 'file:///C:/Users/student/Desktop/dogs.html'" value="I Found a Dog"/>
       </form>
+
+
+<!-- Trigger the Modal -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div></p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <b>list of petshealters around Los angeles</b>
+
+  <p class="vericaltext">
+  West Address: 11361 W Pico Blvd, Los Angeles, CA 90064
+/ (888) 452-7381
+ <p class="vericaltext"> South Address: 1850 W 60th St, Los Angeles, CA 90047 / (888) 452-7381
+ <p class="vericaltext"> North Address: 3201 Lacy St, Los Angeles, CA 90031 / (888) 452-7381
+  <p class="vericaltext"> <b>Pet shelters in San Francisco</b>
+   <p class="vericaltext">
+   North Address: 1200 15th St, San Francisco, CA 94103 /  (415) 554-6364
+    <p class="vericaltext">
+   South Address: 250 Florida St, San Francisco, CA 94103 /  (415) 522-3500
+   <p class="vericaltext">
+   Address: 2926 16th St, San Francisco, CA 94103 / (415) 621-3647
+  <p class="vericaltext">  
+
+  <b><font size="+2"> Straypaws institute/ number : 1-800-straypaws</font>
+   
+    
+
+     
+   
+
+
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.
+  <p class="vericaltext"> The American Humane Association estimates over 10 million dogs and cats are lost or stolen in the U.S. every year. One in three pets will become lost at some point during their life.
+ <p class="vericaltext"> about 110,000 dogs die every day
+  <p class="vericaltext">
+ our website is trying to help out home owners into finding their dogs more faster and efficiantly, so that we can save humans mental health and dogs health.
+
+  </p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
+
