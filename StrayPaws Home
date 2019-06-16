@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>AI HACKS</title>
+		<style>
+			<link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
+			@font-face{
+				font-family: Architects Daughter;
+				src: url("ArchitectsDaughter-Regular.ttf");
+			}
+			body{
+  				background-size: cover;
+			}
+			div.lostbutton{
+				text-align: center;
+  				float: left;
+  				font-size: 200%;
+  				color: #F5F5F2;
+  				margin-top: 500px;
+  				margin-left: 150px;
+			}
+			div.foundbutton{
+				text-align: center;
+  				float: right;
+  				font-size: 200%;
+  				color: #F5F5F2;
+  				margin-top: 500px;
+  				margin-right: 170px;
+			}
+		</style>
+	</head>
+
+
+	<body style="background-image: url(doggo2.png)">
+		<div class="lostbutton" id="lostbox">
+			<p>
+				<button type="lost a dog" style="height: 95px; width: 150px; border-radius: 12px; border: 2px solid #F5F5F2;background-color: transparent; font-size: 29px; color: #F5F5F2; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);" onclick="window.location.href='file:///Users/apple/Desktop/straypawsotherpg.html'">Lost a<br>puppy?</br></button>
+
+			</p>
+		</div>
+		<div class="foundbutton" id="foundbox">
+			<p>
+				<button type="found a dog" style="height: 95px; width: 150px; border-radius: 12px; border: 2px solid #F5F5F2; background-color: transparent; font-size: 29px; font-family: Trebuchet MS; color: #F5F5F2; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);" onclick="window.location.href='file:///Users/apple/Desktop/straypawsotherpg.html'">Found a<br>puppy?</br></br></button>
+			</p>
+		</div>
+	</body>
+</html>
