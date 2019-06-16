@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:#2D1BA4;"><p><font size="6">Found Dogs</font></p></h1>
+
+<p> These dogs fit the description you input.</p>
+
+</body>
+</html>
+
+<html>
+  <body bgcolor="#89CDEB">
+  </body>
+</html>
+<html>
+    <head>
+      <title>Stray Paws</title>
+    </head>
+    <body>
+    	<p></p>
+    </body>
+ 	<figure><img id="myImg" src="https://www.urdogs.com/wp-content/uploads/2015/01/04-01-2015-11-14-49-%D9%85.jpg" align="middle"  alt="Snow" style="width:90%;max-width:300px">
+    <figcaption> <p class="vericaltext">Description
+    <p class="vericaltext"> White dog,no colar,size:large
+    <p class="vericaltext"> Colar name: none
+   <p class="vericaltext">  Found in North Beach</figcaption>
+    
+ 	<figure><img id="myImg" src="https://cdn3.littlethings.com/app/uploads/2017/04/dog-name-for-big-white-dog-600x600.jpg" align="middel"  alt="Snow" style="width:100%;max-width:220px">
+    <figcaption> <p class="vericaltext">Description
+    <p class="vericaltext"> White dog, brown colar,size:medium
+    <p class="vericaltext"> Colar name: Jem
+   <p class="vericaltext">  Found in Union square</figcaption>
+   	<figure><img id="myImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2j7YSIMK9eYar64CVfCDgSzd1tbuMEWSColxk0EFZgIqOPyJv" align="middle"  alt="Snow" style="width:100%;max-width:220px"><p class="vericaltext">Description
+    <p class="vericaltext"> White dog,no colar,size:small
+    <p class="vericaltext"> Colar name: none
+   <p class="vericaltext">  Found in Pacific Heights</figcaption>
+ 	<figure><img id="myImg" src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Nl1_H4eLl/white-stray-dog-is-drinking-water-from-the-river_42yvpb-il__F0000.png" align="middle"  alt="Snow" style="width:100%;max-width:300px"><figcaption> <p class="vericaltext">Description
+    <p class="vericaltext"> White dog,no colar,size:medium
+    <p class="vericaltext"> Colar name: none
+   <p class="vericaltext">  Found in Mission District</figcaption>
+ 	<figure><img id="myImg" src="https://rickey-6652.kxcdn.com/wp-content/uploads/2016/12/Stray-Dog-Is-Rescued-Meets-Betty-White-and-Finds-Forever-Home-VIDEO.png" align="middle"  alt="Snow" style="width:100%;max-width:220px">><figcaption> <p class="vericaltext">Description
+    <p class="vericaltext"> White dog,black colar,size:small
+    <p class="vericaltext"> Colar name: Matt
+   <p class="vericaltext">  Found in Central Market</figcaption>
+ 	<figure><img id="myImg" src="https://bloximages.newyork1.vip.townnews.com/theeastsiderla.com/content/tncms/assets/v3/editorial/2/4d/24d68ba6-fc66-57a8-8ba3-c9d63ffa4071/5c6733a7dac07.image.jpg?resize=400%2C464" align="middle"  alt="Snow" style="width:100%;max-width:300px">><figcaption> <p class="vericaltext">Description
+    <p class="vericaltext"> White dog,no colar,size:medium
+    <p class="vericaltext"> Colar name: none
+   <p class="vericaltext">  Found in Pacific Heights</figcaption>
+   <figure><img id="myImg" src="http://futureexpat.com/wp-content/uploads/2014/01/2014-01-26-10.35.48-1024x768.jpg" align="middle"  alt="Snow" style="width:100%;max-width:300px">><figcaption> <p class="vericaltext">Description
+    <p class="vericaltext"> White dog,no colar,size:large
+    <p class="vericaltext"> Colar name: none
+   <p class="vericaltext">  Found in Financial District</figcaption>
